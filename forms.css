@@ -1,0 +1,6 @@
+[input = "text"]{
+    background-color: blue;
+}
+[input = "password"]{
+    background-color: brown;
+}
