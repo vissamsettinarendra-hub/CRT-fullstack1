@@ -1,0 +1,67 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
+p{
+    /*control thickness*/
+    font-weight: 700;
+    /*
+    100 - thin
+    300 - light
+    400 - normal
+    700 - bold
+    900 - extra bold*/
+    font-style: italic;
+}
+p{
+    font-size: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*short hand font property*/
+p{
+    font:italic bolder 80px "Black Ops One", system-ui;
+    text-align:justify;
+
+}
+/*text decorations*/
+p{
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+}
+p{
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+
+p{
+    letter-spacing: 5px;
+    line-height: 40px;
+    color: brown;
+    
+}
+
+.container{
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    margin: 100px 40px 30px 40px;
+    border: 5px solid red;
+    text-align: justify;
+    background-color: blue;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 10%;
+}
