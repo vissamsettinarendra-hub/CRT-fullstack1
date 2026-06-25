@@ -1,4 +1,4 @@
-/* Reset some default spacing */
+/* Reset default spacing */
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,6 @@ body {
     color: white;
     line-height: 1.6;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Header */
@@ -29,7 +28,7 @@ header {
 /* Main heading */
 h1 {
     text-align: center;
-    color: #ffd700;
+    color: yellow;
     text-shadow: 2px 2px 5px black;
     margin-bottom: 20px;
     font-size: 36px;
@@ -71,7 +70,7 @@ section {
 
 /* Section headings */
 h2 {
-    color: #ffcc00;
+    color: gold;
     margin-bottom: 15px;
     text-align: center;
     text-decoration: underline;
@@ -107,16 +106,16 @@ th {
 td {
     padding: 12px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid black;
 }
 
 /* Alternate row colors */
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: papayawhip;
 }
 
 tr:hover {
-    background-color: #ffe4b5;
+    background-color: papayawhip;
 }
 
 /* Form styling */
@@ -165,8 +164,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: green;
-}
+        background-color: green;
+    }
 
 /* Special table section extra style */
 .table1 {
